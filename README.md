@@ -1,38 +1,75 @@
-A simple & modern currency converter with 7 day historical exchange rate data built using Next.js, TypeScript, and powered by [Currency Exchange Rates API](https://github.com/fawazahmed0/exchange-api).
+# Currency Converter
 
-![Currency converter in action](./public/screenshot.png)
+A modern web application built with **Next.js**, **TypeScript**, and **Tailwind CSS**.  
+This project provides a clean foundation for building fast, scalable, and maintainable web applications using the latest web technologies.
 
-## Getting Started
+---
 
-First, run the development server:
+## Overview
+
+This project is configured with:
+- **Next.js 14+** for server-side rendering and static site generation  
+- **TypeScript** for type safety and maintainability  
+- **Tailwind CSS** for utility-first styling  
+- **PostCSS** for CSS transformations and plugin support  
+
+It includes pre-configured linting, TypeScript settings, and development scripts for an optimized workflow.
+
+---
+
+## Technologies Used
+
+| Category | Technology |
+|-----------|-------------|
+| Framework | Next.js |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Build Tools | PostCSS |
+| Configuration | ESLint, Prettier |
+| Runtime | Node.js (v18+) |
+
+---
+
+## Project Structure
+
+project-root/
+├── app/ # Application source (pages, components, layouts)
+├── public/ # Static assets
+├── next.config.mjs # Next.js configuration
+├── postcss.config.mjs # PostCSS configuration
+├── tailwind.config.ts # Tailwind CSS configuration
+├── tsconfig.json # TypeScript configuration
+├── package.json # Dependencies and scripts
+└── README.md # Project documentation
+
+
+---
+
+
+---
+
+## Installation
 
 ```bash
+# 1. Clone the repository
+git clone https://github.com/your-username/nextjs-typescript-tailwind.git
+cd nextjs-typescript-tailwind
+
+# 2. Install dependencies
+npm install
+# or
+yarn install
+
+# 3. Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# The app will be available at http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 4. Build for production
+npm run build
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 5. Start the production server
+npm start
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# 6. Run lint checks
+npm run lint
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
