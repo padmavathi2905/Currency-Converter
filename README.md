@@ -30,24 +30,6 @@ It includes pre-configured linting, TypeScript settings, and development scripts
 
 ---
 
-## Project Structure
-
-project-root/
-├── app/ # Application source (pages, components, layouts)
-├── public/ # Static assets
-├── next.config.mjs # Next.js configuration
-├── postcss.config.mjs # PostCSS configuration
-├── tailwind.config.ts # Tailwind CSS configuration
-├── tsconfig.json # TypeScript configuration
-├── package.json # Dependencies and scripts
-└── README.md # Project documentation
-
-
----
-
-
----
-
 ## Installation
 
 ```bash
